@@ -49,6 +49,6 @@ Possible usages:
 	
 
 **FINAL REMARK:**
-The most complete file (where it is possible to find both the coeffients computation and the plotting of position, velocity, acceleration for one and only one joint)
+The most complete file (where it is possible to find both the coefficients computation and the plotting of position, velocity, acceleration for one and only one joint)
 is the file 'polynomial_interpolation_sym_func.m'. For any issues with a robot/manipulator with more than one joint, if you want to get results for all the available and needed joints,
 then it is sufficient replacing (time by time) the values of the symbolic variables related to 'q' with the values of the i-th 'q' of your interest. 
